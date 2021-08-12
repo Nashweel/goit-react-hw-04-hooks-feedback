@@ -4,7 +4,7 @@ import FeedbackOptions from "./components/Feedback";
 import Notification from "./components/Notification";
 import Statistics from "./components/Statistics";
 import Section from "./components/Section";
-import { CONSTANS_FEEDBACK } from "./data/constans";
+import { CONSTANS_FEEDBACK } from "./components/data/constans";
 
 export default function App() {
   const [good, setGood] = useState(0);
