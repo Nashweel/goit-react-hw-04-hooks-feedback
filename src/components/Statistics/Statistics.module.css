@@ -1,0 +1,7 @@
+.StatList {
+  list-style: none;
+}
+
+.StatItem:not(:last-child) {
+  margin-bottom: 10px;
+}

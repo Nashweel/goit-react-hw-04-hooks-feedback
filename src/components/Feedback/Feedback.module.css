@@ -1,0 +1,21 @@
+.FeedbackButton {
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  background-color: lightgray;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.FeedbackButton:not(:last-child) {
+  margin-right: 10px;
+}
+
+.FeedbackButton:nth-child(4) {
+  background-color: lightcoral;
+}
+
+.FeedbackButton:nth-child(2) {
+  background-color: lightgreen;
+}
